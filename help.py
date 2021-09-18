@@ -7,7 +7,8 @@ Usage:
 Options:
     -h, --help: Display this help information. Overrides all other
                 options and parameters.
-    --license: Show program license.
+    --license: Show program license. Overrides all other options
+               and parameters.
     -a, --assemble: Assemble the input program, produce some kind of
                     executable form.
     --asm-rsint: Produce a 'CompiledFunction' that can be directly
@@ -16,8 +17,8 @@ Options:
     --asm-xml47: Produce a XML file that can be loaded by Pr47 standard
                  module loader. This requires 'deflate' to be installed.
                  Only available for module input.
-    -d, --dump: Disassemble or analyse the input program, output the
-                program in desired format.
+    -d, --disassemble: Disassemble or analyse the input program, output
+                       the program in desired format.
     --dump-bb: Dump the program in the basic block form.
     --dump-cfg: Dump the program in CFG form (using graphviz).
     --dump-labelled: Dump the program in simple labelled form.
@@ -34,6 +35,7 @@ Outputs:
     -ox, --output-pattern [PATTERN]
 '''
 
+
 Noise = '''
  █████╗ ███████╗███╗   ███╗██████╗  ██╗███████╗███╗   ███╗██████╗
 ██╔══██╗██╔════╝████╗ ████║╚════██╗███║██╔════╝████╗ ████║╚════██╗
@@ -48,6 +50,7 @@ This is free software, came out WITHOUT ANY WARRANTY. and you are
 welcome to redistribute it under certain conditions. Use
 `asm31fm2 --license' for details.
 '''
+
 
 License = '''
                     GNU AFFERO GENERAL PUBLIC LICENSE

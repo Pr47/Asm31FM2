@@ -1,4 +1,5 @@
 import os, sys
 from application import application_start
 
-exit(application_start(sys.argv, os.environ))
+if __name__ == '__main__':
+    exit(application_start(sys.argv, os.environ))
